@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "run_day": "2026-04-17",
+  "live_files": {
+    "merged_live": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\06_live\\bge_weather_load_merged_live.parquet",
+    "forecast_panel_live": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\06_live\\load_forecast_runtime10am_next48h_live.parquet"
+  },
+  "rows": {
+    "da": 371,
+    "rt": 360,
+    "load": 360,
+    "weather": 360,
+    "forecast_panel": 24,
+    "merged_live": 1093
+  },
+  "forecast_predictor_available": true,
+  "proxy_cache_refreshed": true,
+  "proxy_window_days": 7,
+  "proxy_cache_status": {
+    "DA_total": {
+      "rows": 168,
+      "run_days": [
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-11",
+        "2026-04-12",
+        "2026-04-13",
+        "2026-04-14",
+        "2026-04-15"
+      ]
+    },
+    "RT_total": {
+      "rows": 168,
+      "run_days": [
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-11",
+        "2026-04-12",
+        "2026-04-13",
+        "2026-04-14",
+        "2026-04-15"
+      ]
+    }
+  },
+  "message": "Live data update completed. Fresh history was refreshed locally. Fresh next-day load forecast panel is available from load_frcstd_7_day. Dynamic proxy cache overwritten from the latest live downloads."
+}

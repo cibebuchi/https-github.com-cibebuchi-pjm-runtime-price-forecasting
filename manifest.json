@@ -1,0 +1,14 @@
+{
+  "application": "PJM Runtime Forecast",
+  "version": "2.0.0",
+  "purpose": "Runtime-constrained Day-Ahead and Real-Time electricity price forecasting across PJM zones and selected hubs.",
+  "entry_point": "app.py",
+  "validated_reference_market": "BGE",
+  "runtime_ept": "10:00",
+  "strict_realized_cutoff_ept": "09:00",
+  "multi_market_engine": "multi_market_engine.py",
+  "market_metadata": "pjm_markets.py",
+  "legacy_bge_interface": "legacy_bge_app.py",
+  "runtime_cache": "10_multimarket_cache",
+  "note": "The interface supports PJM zones and selected hubs. BGE has the full 2024\u20132026 study validation; other markets receive recent rolling backtests within the app."
+}
